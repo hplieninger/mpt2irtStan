@@ -48,4 +48,4 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then sudo tlmgr install inconsolata; fi
 
 after_failure:
-  - cat /home/travis/build/saudiwin/idealstan/idealstan.Rcheck/00install.out
+  - cat /home/travis/build/hpieninger/mpt2irtStan/mpt2irtStan.Rcheck/00install.out
