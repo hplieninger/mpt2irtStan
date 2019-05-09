@@ -1,0 +1,20 @@
+citHeader("To cite mpt2irt in publications use:")
+
+citEntry(entry = "Article",
+  title        = "A new model for acquiescence at the interface of psychometrics and cognitive psychology",
+  author       = personList(as.person("Hansj\\\"{o}rg Plieninger"),
+                            as.person("Daniel W. Heck")),
+  journal      = "Multivariate Behavioral Research",
+  year         = "2018",
+  doi          = "10.1080/00273171.2018.1469966",
+  volume       = "53",
+  number       = "5",
+  pages        = "633--654",
+  url          = "https://doi.org/10.1080/00273171.2018.1469966",
+
+  textVersion  =
+  paste("Plieninger, H., & Heck, D. W. (2018).",
+        "A new model for acquiescence at the interface of psychometrics and cognitive psychology.",
+        "Multivariate Behavioral Research, 53(3), 633-654.",
+        "doi:10.1080/00273171.2018.1469966")
+)

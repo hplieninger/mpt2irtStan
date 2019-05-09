@@ -1,2 +1,23 @@
-# mpt2irtStan
-Stan files for mpt2irt package
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/hplieninger/mpt2irtStan.svg?branch=master)](https://travis-ci.org/hplieninger/mpt2irtStan)
+<!-- badges: end -->
+
+This package provides the Stan code for the
+[mpt2irt](https://github.com/hplieninger/mpt2irt) package and is most
+likely only useful in combination with mpt2irt.
+
+You can install mpt2irtStan from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("hplieninger/mpt2irtStan")
+```
+
+For further information regarding installation and usage of this package
+in combination with mpt2irt, see
+[mpt2irt](https://github.com/hplieninger/mpt2irt).

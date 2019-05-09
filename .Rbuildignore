@@ -1,0 +1,5 @@
+^mpt2irtStan\.Rproj$
+^\.Rproj\.user$
+\.RData$
+^\.travis\.yml$
+^README\.Rmd$
