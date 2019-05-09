@@ -3,8 +3,8 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/hplieninger/mpt2irtStan.svg?branch=master)](https://travis-ci.org/hplieninger/mpt2irtStan)
+[![Travis Build
+Status](https://travis-ci.com/hplieninger/mpt2irtStan.svg?branch=master)](https://travis-ci.com/hplieninger/mpt2irtStan)
 <!-- badges: end -->
 
 This package provides the Stan code for the
