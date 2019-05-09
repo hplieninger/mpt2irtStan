@@ -1,7 +1,8 @@
 language: r
 sudo: true
 cache: packages
-
+warnings_are_errors: false
+r_check_args: --no-manual
 
 matrix:
   include:
@@ -48,4 +49,4 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then sudo tlmgr install inconsolata; fi
 
 after_failure:
-  - cat /home/travis/build/hpieninger/mpt2irtStan/mpt2irtStan.Rcheck/00install.out
+  - cat mpt2irtStan.Rcheck/00*
